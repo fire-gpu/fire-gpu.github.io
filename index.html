@@ -916,10 +916,96 @@
     <div class="section-header fade-in">
       <div class="section-label">Project</div>
       <h2 class="section-title">个人项目</h2>
-      <p class="section-desc">从业务痛点出发，独立完成的 AI 可解释性分析引擎。</p>
+      <p class="section-desc">从业务痛点出发，独立完成的两个 AI 应用项目。</p>
     </div>
 
+    <!-- PROJECT 1: JD Truth -->
     <div class="project-card fade-in">
+      <div class="project-banner" style="background: linear-gradient(135deg, #1a3a2a 0%, #2a5a3a 50%, #3a7a4a 100%);">
+        <div class="project-banner-content">
+          <h3>JD Truth · 让每一份 JD 都说真话</h3>
+          <p>Hello AI 科技致善 · TRAE × 脉脉 SOLO 挑战赛公益赛道</p>
+        </div>
+      </div>
+      <div class="project-body">
+        <div class="project-narrative">
+          <div class="narrative-block">
+            <div class="narrative-label">痛点</div>
+            <div class="narrative-text">
+              毕业 0-2 年求职者在 BOSS 直聘看到感兴趣的岗位，却面临三个核心困惑：岗位到底干嘛？我到底差什么？我该怎么补？招聘方用高大上的话包装，求职者根本看不懂——信息不对称导致自我淘汰。
+            </div>
+          </div>
+          <div class="narrative-block">
+            <div class="narrative-label">方案</div>
+            <div class="narrative-text">
+              粘贴 JD → 选择岗位类别 → 可选填背景 → 获得包含 6 个维度（岗位真相/日常工作/能力差距/行动建议/薪资参考/风险提示）的深度报告。采用<strong>AI + 真实从业者经验</strong>的知识库架构，混合检索（关键词 0.6 + Jaccard 语义相似度 0.4），Prompt 经 4 轮迭代，内置 5 条幻觉边界规则。微信小程序原生开发，0 月运行成本。
+            </div>
+          </div>
+          <div class="narrative-block">
+            <div class="narrative-label">成果</div>
+            <div class="narrative-text">
+              完整走通 P1 产品定义（21 条 JD 样本分析、16 个竞品调研）→ P2 知识库构建（6 岗位 × 2 条经验，辩论式审查）→ P3 Prompt 工程（V1→V3.1 四轮迭代）→ P4 开发 → P5 测试（8 边界用例）→ P6 部署（0 成本）→ P7 审核（微信代码审核已通过）。Prompt 评分 21/25。
+            </div>
+          </div>
+        </div>
+
+        <div class="project-tech-stats">
+          <div class="project-tech-stat">
+            <div class="num">6</div>
+            <div class="label">报告维度</div>
+          </div>
+          <div class="project-tech-stat">
+            <div class="num">21/25</div>
+            <div class="label">Prompt 评分</div>
+          </div>
+          <div class="project-tech-stat">
+            <div class="num">¥0</div>
+            <div class="label">月运行成本</div>
+          </div>
+          <div class="project-tech-stat">
+            <div class="num">4</div>
+            <div class="label">Prompt 迭代版本</div>
+          </div>
+        </div>
+
+        <div class="project-features">
+          <div class="project-feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>用户画像驱动 · 3 类目标用户（应届/转行/跳槽）</span>
+          </div>
+          <div class="project-feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>幻觉边界控制 · 5 条规则防止 AI 编造信息</span>
+          </div>
+          <div class="project-feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>混合检索 · 关键词 + Jaccard 语义相似度</span>
+          </div>
+          <div class="project-feature">
+            <div class="icon"><svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg></div>
+            <span>微信小程序 · 原生开发，代码审核已通过</span>
+          </div>
+        </div>
+
+        <div class="project-links">
+          <a href="https://fire-gpu.github.io/project-jd-truth/" target="_blank" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+            项目主页
+          </a>
+          <a href="https://github.com/fire-gpu/project-jd-truth" target="_blank" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+            GitHub
+          </a>
+          <a href="https://forum.trae.cn/t/topic/11658" target="_blank" class="project-link">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            参赛帖
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PROJECT 2: Explainability Engine -->
+    <div class="project-card fade-in" style="margin-top: 24px;">
       <div class="project-banner">
         <div class="project-banner-content">
           <h3>Explainability Engine</h3>
@@ -1022,7 +1108,7 @@
       </div>
       <div class="edu-info">
         <h3>University of Illinois at Urbana-Champaign</h3>
-        <div class="edu-major">数学与计算机科学 · 双专业本科</div>
+        <div class="edu-major">数学与计算机科学</div>
         <div class="edu-time">2020.08 — 2024.05</div>
         <div class="edu-honor">
           <svg width="12" height="12" viewBox="0 0 24 24" fill="var(--purple-mid)" stroke="none"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -1050,6 +1136,14 @@
         <p>独立创作并发表原创音乐作品，已携作品参加音乐创作比赛。音乐是我理解世界、表达情感的另一种语言。</p>
         <a href="https://163cn.tv/44pz0k9" target="_blank" class="creative-link">
           听《意志如钢》
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://163cn.tv/5AII2dU" target="_blank" class="creative-link">
+          听《狂气华丽之间》
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="https://163cn.tv/5AIpnj2" target="_blank" class="creative-link">
+          听《True Phoenix Goddess》
           <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
         </a>
       </div>
